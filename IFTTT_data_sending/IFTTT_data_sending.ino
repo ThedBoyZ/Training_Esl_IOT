@@ -28,7 +28,7 @@ void setup()
   randomSeed(hallRead());
 }  
 
-void Loop()
+void loop(){
     //Send an HTTP POST request after every 15 seconds
   if ((millis() - lastTime) > timerDelay) {
     //Check WiFi connection status
